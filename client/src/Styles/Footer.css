@@ -1,0 +1,60 @@
+.footer {
+    background-color: #1e1e2f;
+    color: #fff;
+    padding: 40px 20px;
+  }
+  
+  .footer .contain {
+    display: flex; /* Use flexbox to align items horizontally */
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    justify-content: space-between; /* Add space between columns */
+    gap: 20px; /* Add space between columns */
+  }
+  
+  .footer .col {
+    flex: 1; /* Ensure all columns take equal width */
+    max-width: 200px; /* Set a max width for each column */
+    min-width: 150px; /* Ensure minimum width for smaller screens */
+    margin-bottom: 20px;
+  }
+  
+  .footer h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #ff9f00; /* Add a pop color for headings */
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer ul li {
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .footer ul li:hover {
+    color: orange; /* Highlight the link on hover */
+  }
+  
+  .footer .social ul {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .footer .social ul li img {
+    width: 32px;
+    transition: transform 0.3s ease;
+  }
+  
+  .footer .social ul li img:hover {
+    transform: scale(1.1);
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
